@@ -1,0 +1,20 @@
+cd django_final_assignment
+
+pip install --upgrade distro-info
+pip3 install --upgrade pip==23.2.1
+pip install virtualenv
+virtualenv djangoenv
+source djangoenv/bin/activate
+
+pip install -U -r requirements.txt
+
+python3 manage.py makemigrations
+python3 manage.py migrate
+
+python3 manage.py runserver
+
+Frontend
+https://hectorccolla-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/onlinecourse
+
+Web admin
+https://hectorccolla-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/admin
